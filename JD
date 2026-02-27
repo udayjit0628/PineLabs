@@ -2,6 +2,29 @@ Madam, it’s a good company offer, but currently I have only one offer, so I ca
 Once my selection is completed, I will share the offer letter with you.
 
 Yes, just a moment. I’m sharing my screen now
+
+Q. Do you have any question for my side?
+Ans-:
+How is the DevOps team structured, and how closely do you work with development teams during sprints?
+
+ans-: ye bolna nhi hai
+That’s great to hear. In my current role, we also work closely with developers during sprint cycles.
+It really helps in resolving deployment or environment issues early and ensures smoother releases
+
+Q. Why should we hire you?
+Ans-:
+I believe you should hire me because I have hands-on experience in CI/CD automation, AWS cloud, 
+and containerized deployments, which closely match this role.
+
+In my current project, I’ve worked on Jenkins pipelines, Docker, Terraform, and AWS services, 
+and helped reduce manual deployment effort by 30% while improving stability. I also focus a 
+lot on monitoring and quick issue resolution to ensure smooth releases.
+
+Apart from technical skills, I work well with development and QA teams, and I take ownership 
+of tasks. I’m always looking to improve processes through automation.
+
+I may not know everything, but I learn quickly and adapt fast. I’m confident I can contribute 
+effectively to your DevOps team.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Good morning/afternoon,
 
@@ -157,10 +180,28 @@ Shell scripting and basic Python. I use them for automation, log parsing, and CI
 Q23: TCP vs UDP?
 Ans-:
 “TCP is reliable and connection-oriented, UDP is faster but less reliable.”
+"TCP Guarantees reliable data delivery, UDP Does not guarantee delivery."
+"TCP Uses acknowledgements , UDP No acknowledgements."
 
 Q24: Linux commands for monitoring?
 Ans-:
 “I use top, htop, df -h, netstat, and tail -f /var/log.”
+
+1️⃣ top
+Use:
+Shows real-time CPU and memory usage of running processes.
+2️⃣ htop
+Use:
+Improved version of top with better UI and easier process management.
+3️⃣ df -h
+Use:
+Shows disk space usage in human-readable format (GB/MB).
+4️⃣ netstat
+Use:
+Shows network connections, listening ports, and active connections.
+5️⃣ tail -f /var/log
+Use:
+Shows real-time log updates.
 
 Q25: Difference between CI/CD, DevOps, and IaC?
 Ans-: 
