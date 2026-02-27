@@ -1,0 +1,168 @@
+Madam, it’s a good company offer, but currently I have only one offer, so I can’t share it right now.
+Once my selection is completed, I will share the offer letter with you.
+
+Yes, just a moment. I’m sharing my screen now
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Good morning/afternoon,
+
+“My name is Udayjit Charpe, and I’m a DevOps Engineer with 2.7 years of experience at Tech Mahindra.
+
+Currently, I work on cloud-based applications on AWS, and I focus on automating build and deployment 
+processes to make releases smooth and reliable. On a daily basis, I work with Linux servers, collaborate 
+with development teams using GitHub, and maintain CI/CD pipelines in Jenkins.
+
+I also handle build automation with Maven, configuration management with Ansible, and containerization 
+using Docker. I’ve gained hands-on exposure to Kubernetes for deployments and Terraform for provisioning
+infrastructure. I’ve also worked a bit with Azure DevOps for pipelines and repository management.
+
+What I enjoy most is automation and continuous improvement, and I like working in teams where I can 
+learn and grow. My experience at Tech Mahindra has helped me build both technical skills and teamwork 
+abilities, and I’m excited to take on more responsibilities and challenges in my career.”
+
+Thank you.
+
+Q: Tell me about your current/previous project and your role?
+
+ans - : 
+I worked on the HORIZON project for Vodafone Idea as a DevOps Engineer. My main focus was on automating 
+CI/CD pipelines using Jenkins, which cut down manual deployment work by around 30%. I containerized 
+applications with Docker and deployed them on Kubernetes to make deployments more stable.
+
+I also automated environment setup using Terraform, which reduced setup time by about 40%, 
+and managed AWS services like EC2, S3, IAM, VPC, RDS, and Load Balancers.
+
+For configuration, I used Ansible playbooks to minimize errors, and integrated SonarQube to improve 
+code quality. I set up CloudWatch monitoring and alerts to catch issues faster.
+
+I worked closely with the Dev and QA teams to make sure deployments ran smoothly. Overall, my role was
+all about automation, reliable deployments, and building scalable infrastructure.”
+
+1️⃣ CI/CD & Jenkins
+
+Q1: Tell me about a CI/CD pipeline you built.
+Ans-: 
+I built Jenkins pipelines for HORIZON. Basically, when someone commits code to Git, it triggers Maven 
+build, SonarQube checks, Docker image is created, pushed to AWS ECR, and deployed using Helm/Kubernetes. 
+It reduced manual deployment by around 30%.”
+
+Q2: What do you do if a build fails?
+Ans-:
+I first check the Jenkins logs to see where it failed. If it’s a code issue, I coordinate with the dev team.
+If it’s environment or config, I fix it and redeploy.”
+
+Q3: How do you handle multiple environments?
+Ans-: 
+I keep separate Helm values files for dev, QA, and prod. Jenkins picks the correct one automatically, 
+so deployment is consistent.”
+
+Q4: How do you ensure code quality?
+Ans-: 
+I integrated SonarQube in the pipeline, which helped catch issues early and reduced build failures by 25%.”
+
+2️⃣ Docker / Containerization
+
+Q5: How did you use Docker in your project?
+Ans-: 
+I containerized all microservices so that dev, QA, and prod environments are the same. It made deployments
+smoother and more reliable.”
+
+Q6: What if a container doesn’t start?
+Ans-: 
+I check docker logs to see errors, verify environment variables and volumes, fix the issue, and redeploy. 
+For example, in HORIZON a missing config file caused a pod to fail, which I fixed this way.”
+
+Q7: What benefits did Docker give?
+Ans-: 
+It ensured consistent environment across stages, faster deployments, and fewer issues in production.”
+
+3️⃣ Kubernetes (Basic Exposure)
+
+Q8: What’s your experience with Kubernetes?
+Ans-: 
+I deployed Docker containers on Kubernetes clusters, monitored pod health, and handled rolling updates. 
+My hands-on exposure is basic but mainly focused on deployment and monitoring.”
+
+Q9: How do you troubleshoot a failing pod?
+Ans-: 
+I use kubectl logs and kubectl describe pod to check errors. In one case, a pod failed due to an 
+environment mismatch; I updated the Helm chart and redeployed.”
+
+Q10: What is Helm and why do you use it?
+Ans-: 
+Helm is like a package manager for Kubernetes. It helps deploy apps consistently across dev, QA, and prod.”
+
+4️⃣ AWS / Cloud
+
+Q11: Which AWS services have you used?
+Ans-: 
+I’ve worked with EC2, S3, IAM, VPC, RDS, Load Balancers, ECR, CodePipeline, and CloudWatch. 
+I managed scaling, security, and deployments.”
+
+Q12: How do you monitor application health?
+Ans-: 
+I use CloudWatch and Grafana dashboards to monitor CPU, memory, latency, and errors. 
+This helped reduce issue detection time by 20%.”
+
+Q13: How did you automate infrastructure?
+Ans-: 
+I used Terraform to automate environment setup, which reduced provisioning time by around 40%.”
+
+5️⃣ Configuration / Automation
+
+Q14: How did you manage configuration?
+Ans-: 
+I wrote Ansible playbooks to automate configuration updates. This cut configuration errors by 50%.”
+
+Q15: How do you handle environment-related deployment issues?
+Ans: 
+I check scripts, Docker images, Helm charts, and AWS configs. Then coordinate with Dev/QA to fix and redeploy.”
+
+6️⃣ Troubleshooting / Scenario
+
+Q16: A production pod crashes. What do you do?
+Ans-: 
+Check logs, environment variables, Helm chart. Fix the issue, redeploy, and keep rollback ready if needed.”
+
+Q17: Service is slow in production. How do you troubleshoot?
+Ans-: 
+I check pod metrics, CPU/memory usage, logs, DB queries, and network. In HORIZON, latency was 
+due to inefficient DB queries; I optimized them.”
+
+Q18: CI/CD pipeline fails, what’s your approach?
+Ans-: 
+I check logs, Docker, Helm, environment, fix the issue, rebuild, and redeploy.”
+
+7️⃣ Collaboration / Behavioral
+
+Q19: How do you work with Dev and QA teams?
+Ans-: 
+I coordinate during sprints, maintain stable CI/CD pipelines, prepare QA environments, 
+and communicate deployment changes.”
+
+Q20: Give an example of a production issue you solved.
+Ans-: 
+One pod crashed due to a wrong environment variable. I updated the Helm chart, redeployed, 
+and added validation to the pipeline to prevent this again.”
+
+Q21: How do you manage multiple deployment priorities?
+Ans-: 
+I check impact and urgency, communicate with teams, and follow a structured deployment plan to avoid downtime.”
+
+8️⃣ Scripting / OS / Networking
+
+Q22: Which scripting languages do you know?
+Ans-: 
+Shell scripting and basic Python. I use them for automation, log parsing, and CI/CD tasks.”
+
+Q23: TCP vs UDP?
+Ans-:
+“TCP is reliable and connection-oriented, UDP is faster but less reliable.”
+
+Q24: Linux commands for monitoring?
+Ans-:
+“I use top, htop, df -h, netstat, and tail -f /var/log.”
+
+Q25: Difference between CI/CD, DevOps, and IaC?
+Ans-: 
+“CI/CD automates build, test, and deploy. DevOps is a culture for collaboration. IaC
+like Terraform automates infrastructure provisioning.”
